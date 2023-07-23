@@ -1,11 +1,68 @@
 :root {
   --primary-font: "Roboto", sans-serif;
+  --primary-brand-iris: #4d5ae5;
+  --pressed-state-ocean: #404bbf;
+  --dark-navy-blue: #2e2f42;
+  --sucess-green: #31d0aa;
+  --text-slate: #434455;
+  --subtle-text-light-slate: #8e8f99;
+  --accent-cornflower: #e7e9fc;
+  --light-cloud: #f4f4fd;
+  --modal-overley: #2e2f42;
+  --hero-background: #2e2f42;
+  --white-background: #ffffff;
+  --modal-background: #fcfcfc;
 }
 
-body{
+body {
   font-family: var(--primary-font);
+  color: var(--text-slate);
+  background-color: var(--white-background);
 }
 
-a, ul{
+ul {
   list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* хедер */
+.web-logo {
+  color: var(--primary-brand-iris);
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.54;
+  text-transform: uppercase;
+}
+.studio-logo {
+  color: var(--dark-navy-blue);
+  font-family: Raleway;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.54;
+  text-transform: uppercase;
+}
+
+.studio-page {
+  color: var(--dark-navy-blue);
+  line-height: 24px;
+  letter-spacing: 0.32;
+  font-weight: 500;
+}
+
+.portfolio-page {
+  color: var(--dark-navy-blue);
+  line-height: 24px;
+  letter-spacing: 0.32;
+  font-weight: 500;
+}
+
+.contacts-page {
+  color: var(--dark-navy-blue);
+  line-height: 24px;
+  letter-spacing: 0.32;
+  font-weight: 500;
 }
