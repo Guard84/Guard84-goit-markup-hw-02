@@ -57,24 +57,25 @@ h2 {
   text-transform: uppercase;
 }
 
-.page .link-page {
+.link-page {
   color: var(--dark-navy-blue);
   line-height: 24px;
   letter-spacing: 0.32;
   font-weight: 500;
 }
 
-.page .link-page:active,
-.page .link-page:hover {
+.link-page:focus,
+.link-page:hover {
   color: var(--pressed-state-ocean);
 }
 
-.contacts-nav .contact-link {
+.contact-link {
   font-style: normal;
   color: var(--text-slate);
 }
 
-.contacts-nav .contact-link:hover {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--pressed-state-ocean);
 }
 
@@ -96,12 +97,14 @@ h2 {
 
 .hero-button {
   background-color: var(--primary-brand-iris);
+  color: var(--white-background);
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
+  cursor: pointer;
 }
 
-.hero-button:hover{
+.hero-button:hover {
   color: var(--pressed-state-ocean);
 }
 
@@ -140,4 +143,25 @@ h2 {
   line-height: 21px;
   letter-spacing: 0.54;
   text-transform: uppercase;
+}
+
+/* портфоліо */
+.button-active {
+  background-color: var(--pressed-state-ocean);
+  color: var(--white-background);
+  cursor: pointer;
+}
+
+.button-filter {
+  background-color: var(--light-cloud);
+  color: var(--primary-brand-iris);
+  cursor: pointer;
+}
+
+.list-projects h3 {
+  color: var(--dark-navy-blue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.4px;
 }
