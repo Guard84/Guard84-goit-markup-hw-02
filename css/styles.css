@@ -28,11 +28,21 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  color: var(--dark-navy-blue);
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.72;
+  text-transform: capitalize;
+}
+
 /* хедер */
 .web-logo {
   color: var(--primary-brand-iris);
   font-family: Raleway;
   font-size: 18px;
+  font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54;
   text-transform: uppercase;
@@ -41,6 +51,7 @@ a {
   color: var(--dark-navy-blue);
   font-family: Raleway;
   font-size: 18px;
+  font-weight: 800;
   line-height: 21px;
   letter-spacing: 0.54;
   text-transform: uppercase;
@@ -92,4 +103,41 @@ a {
   border-radius: 4px;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   padding: 16px 32px;
+}
+
+/* секція 2 */
+.list-advantages h3 {
+  color: var(--dark-navy-blue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4;
+}
+
+/* секція 3 */
+.list-team h3 {
+  color: var(--dark-navy-blue);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.4;
+}
+
+/* футер */
+.footer-text {
+  color: var(--light-cloud);
+}
+
+.footer-color {
+  background-color: var(--dark-navy-blue);
+}
+
+.studio-logo-footer {
+  color: var(--light-cloud);
+  font-family: Raleway;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 21px;
+  letter-spacing: 0.54;
+  text-transform: uppercase;
 }
