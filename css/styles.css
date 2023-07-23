@@ -64,8 +64,8 @@ h2 {
   font-weight: 500;
 }
 
-.link-page:focus,
-.link-page:hover {
+.link-page:hover,
+.link-page:focus {
   color: var(--pressed-state-ocean);
 }
 
