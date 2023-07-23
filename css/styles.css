@@ -105,7 +105,8 @@ h2 {
 }
 
 .hero-button:hover {
-  color: var(--pressed-state-ocean);
+  background-color: var(--pressed-state-ocean);
+  color: var(--white-background);
 }
 
 /* секція 2 */
