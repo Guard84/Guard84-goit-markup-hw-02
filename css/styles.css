@@ -32,8 +32,9 @@ h2 {
   color: var(--dark-navy-blue);
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
-  letter-spacing: 0.72;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
 
@@ -42,25 +43,19 @@ h2 {
   color: var(--primary-brand-iris);
   font-family: Raleway;
   font-size: 18px;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
 .studio-logo {
   color: var(--dark-navy-blue);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54;
-  text-transform: uppercase;
 }
 
 .link-page {
   color: var(--dark-navy-blue);
   line-height: 24px;
-  letter-spacing: 0.32;
+  letter-spacing: 0.02em;
   font-weight: 500;
 }
 
@@ -69,9 +64,14 @@ h2 {
   color: var(--pressed-state-ocean);
 }
 
-.contact-link {
+.address {
   font-style: normal;
+}
+
+.contact-link {
   color: var(--text-slate);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .contact-link:hover,
@@ -91,36 +91,52 @@ h2 {
   font-size: 56px;
   font-style: normal;
   font-weight: 700;
-  line-height: 60px; /* 107.143% */
-  letter-spacing: 1.12;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
 }
 
 .hero-button {
   background-color: var(--primary-brand-iris);
   color: var(--white-background);
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  padding: 16px 32px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   cursor: pointer;
 }
 
 .hero-button:hover {
   background-color: var(--pressed-state-ocean);
-  color: var(--white-background);
+}
+
+.hero-button:focus {
+  background-color: var(--pressed-state-ocean);
 }
 
 /* секція 2 */
-.list-advantages h3 {
+.list-advantages {
   color: var(--dark-navy-blue);
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
-  letter-spacing: 0.4;
+  letter-spacing: 0.02em;
+}
+
+.advantages-item {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--text-slate);
 }
 
 /* секція 3 */
-.list-team h3 {
+
+.our-team-section {
+  background-color: var(--light-cloud);
+}
+
+.list-team {
   color: var(--dark-navy-blue);
+  background-color: var(--white-background);
   font-size: 20px;
   font-weight: 500;
   line-height: 24px;
