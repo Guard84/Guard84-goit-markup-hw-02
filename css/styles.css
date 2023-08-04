@@ -147,17 +147,6 @@ h2 {
 }
 
 /* портфоліо */
-.button-active {
-  background-color: var(--pressed-state-ocean);
-  color: var(--white-background);
-  cursor: pointer;
-}
-
-.button-filter {
-  background-color: var(--light-cloud);
-  color: var(--primary-brand-iris);
-  cursor: pointer;
-}
 
 .list-projects h3 {
   color: var(--dark-navy-blue);
