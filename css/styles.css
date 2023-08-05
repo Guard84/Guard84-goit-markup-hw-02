@@ -41,7 +41,7 @@ a {
 /* хедер */
 .web-logo {
   color: var(--primary-brand-iris);
-  font-family: Raleway;
+  font-family: "Raleway", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 1.17;
@@ -143,25 +143,6 @@ a {
   letter-spacing: 0.4;
 }
 
-/* футер */
-.footer-text {
-  color: var(--light-cloud);
-}
-
-.footer-color {
-  background-color: var(--dark-navy-blue);
-}
-
-.studio-logo-footer {
-  color: var(--light-cloud);
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-
 /* портфоліо */
 
 .list-projects {
@@ -170,4 +151,25 @@ a {
   font-weight: 500;
   line-height: 24px; /* 120% */
   letter-spacing: 0.4px;
+}
+
+/* футер */
+.footer-text {
+  color: var(--light-cloud);
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.footer-color {
+  background-color: var(--dark-navy-blue);
+}
+
+.studio-logo-footer {
+  color: var(--light-cloud);
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
 }
