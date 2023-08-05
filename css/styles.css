@@ -28,7 +28,7 @@ a {
   text-decoration: none;
 }
 
-h2 {
+.title-section {
   color: var(--dark-navy-blue);
   font-size: 36px;
   font-weight: 700;
@@ -157,14 +157,14 @@ h2 {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 800;
-  line-height: 21px;
-  letter-spacing: 0.54;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
   text-transform: uppercase;
 }
 
 /* портфоліо */
 
-.list-projects h3 {
+.list-projects {
   color: var(--dark-navy-blue);
   font-size: 20px;
   font-weight: 500;
