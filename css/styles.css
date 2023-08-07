@@ -52,15 +52,15 @@ a {
   color: var(--dark-navy-blue);
 }
 
-.link-page {
+.page-link {
   color: var(--dark-navy-blue);
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
 }
 
-.link-page:hover,
-.link-page:focus {
+.page-link:hover,
+.page-link:focus {
   color: var(--pressed-state-ocean);
 }
 
@@ -104,24 +104,21 @@ a {
   cursor: pointer;
 }
 
-.hero-button:hover {
-  background-color: var(--pressed-state-ocean);
-}
-
+.hero-button:hover,
 .hero-button:focus {
   background-color: var(--pressed-state-ocean);
 }
 
 /* секція 2 */
-.list-advantages {
+.list-title {
   color: var(--dark-navy-blue);
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 0.02em;
 }
 
-.advantages-item {
+.list-item {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -135,23 +132,10 @@ a {
 }
 
 .list-team {
-  color: var(--dark-navy-blue);
   background-color: var(--white-background);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px;
-  letter-spacing: 0.4;
 }
 
 /* портфоліо */
-
-.list-projects {
-  color: var(--dark-navy-blue);
-  font-size: 20px;
-  font-weight: 500;
-  line-height: 24px; /* 120% */
-  letter-spacing: 0.4px;
-}
 
 /* футер */
 .footer-text {
@@ -166,10 +150,4 @@ a {
 
 .studio-logo-footer {
   color: var(--light-cloud);
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
 }
